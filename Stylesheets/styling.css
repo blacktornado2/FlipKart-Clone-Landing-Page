@@ -68,6 +68,41 @@ nav ul li a:hover{
     font-family: 'Lato', sans-serif;
 }
 
+.header-components{
+    height: 140px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    padding: 11px;
+    margin: 5px 33px;
+}
+
+.header-component img{
+    height: 64px;
+    width: 64px;
+    margin-bottom: 8px ;
+}
+.header-component p{
+    padding: 5px 10px;
+}
+
+.header-component a{
+    text-decoration: none;
+}
+
+.header-component a:hover{
+    color:rgb(117, 117, 255);
+    /* font-weight: bold; */
+}
+
+
 .slider{
     margin: 50px auto;
     width: 80vw;
